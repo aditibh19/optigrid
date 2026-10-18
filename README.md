@@ -119,16 +119,6 @@ When the services start successfully, open:
 
 Follow the setup scripts and terminal output if any additional configuration is required.
 
-## 🧪 Testing
-
-The project README documents the following test coverage:
-
-- **289 backend tests** using Pytest
-- **23 frontend tests** using Vitest
-- **36 end-to-end checks**
-
-Run the tests using the commands and configuration provided in the backend and frontend directories.
-
 ## 📊 Data & Evaluation
 
 EV-OptiGrid supports simulated charging scenarios, prediction workflows, and comparisons between charging strategies.
