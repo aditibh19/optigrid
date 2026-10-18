@@ -1,0 +1,38 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+*.egg-info/
+
+# Env
+.env
+*.db
+
+# Node
+node_modules/
+.next/
+out/
+
+# ML artifacts
+ml/artifacts/*.pkl
+ml/artifacts/*.joblib
+
+# Misc
+.DS_Store
+*.log
+
+# frontend (Next.js)
+frontend/node_modules/
+frontend/.next/
+frontend/next-env.d.ts
+frontend/tsconfig.tsbuildinfo
+frontend/.env.local
+
+# solved-policy cache (regenerated on demand; can reach hundreds of MB)
+optimization/artifacts/*.npz
+backend/*.db
+
+# local environment / virtual envs
+backend/.venv/
+backend/.env
